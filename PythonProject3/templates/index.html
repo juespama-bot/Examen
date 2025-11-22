@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Menú Principal</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            gap: 40px;
+        }
+
+        .boton {
+            width: 200px;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            transition: transform 0.2s;
+        }
+
+        .boton:hover {
+            transform: scale(1.05);
+        }
+
+        .ej1 {
+            background-color: #7B1FA2;
+        }
+
+        .ej2 {
+            background-color: #388E3C;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="/ejercicio1" class="boton ej1">Ejercicio 1</a>
+        <a href="/ejercicio2" class="boton ej2">Ejercicio 2</a>
+    </div>
+</body>
+</html>
